@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+	<head>
+		<title>User Login and Sessions</title>
+
+		<link rel="stylesheet" href="/static/css/style.css">
+	</head>
+	<body>
+		<div class="form-container">
+			<p class="form-header">Login</p>
+
+			<form method="POST">
+				<label for="username"></label>
+				<input type="text" name="username">
+
+				<label for="password"></label>
+				<input type="password" name="password">
+
+				<input type="submit" value="Login">
+			</form>
+		</div>
+
+		<a href="/signup">Sign Up</a>
+
+		<hr>
+		<%= msg %>
+	</body>
+</html>

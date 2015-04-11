@@ -1,0 +1,40 @@
+div.form-container{
+  display: block;
+  width: 600px;
+  border-radius:10px;
+  margin:10px auto;
+}
+
+p.form-header{
+  margin:0px;
+  font: 24px bold;
+  color: black;
+  text-align:center;
+}
+
+form {
+  margin:10px;
+}
+
+label {
+  width:100px;
+  display: inline-block;
+  margin: 5px;
+}
+
+input {
+  display: block;
+  border: 1px ridge black;
+  padding: 10px 15px;
+  font-size: 1em;
+  outline: 0;
+}
+
+input[type=submit] {
+  font: 18px bold;
+  width: 190px;
+  color: white;
+  background: black;
+  padding: 10px 15px;
+  margin-top:15px;
+}
